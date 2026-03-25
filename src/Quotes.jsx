@@ -13,7 +13,7 @@ import Xbutton from "./Xbutton";
 import Vault from "./Vault";
 import { link } from "framer-motion/client";
 import { Link } from "react-router-dom";
-import MobileView from "./MobileView";
+import MobileView from "./Mobileview";
 import ReactMarkdown from 'react-markdown';
 
 const Quotes = () => {
