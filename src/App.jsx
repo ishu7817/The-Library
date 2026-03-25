@@ -5,7 +5,7 @@ import Quotes from "./Quotes";
 import Articles from "./Articles";
 import Vault from "./Vault";
 import Articleread from "./Articleread";
-import MobileView from "./MobileView";
+import MobileView from "./Mobileview";
 import About from "./About";
 import Lenis from "lenis";
 import ReactLenis from "lenis/react";
