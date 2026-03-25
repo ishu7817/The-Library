@@ -8,7 +8,7 @@ import { useLenis } from "lenis/react";
 import Progressbar from "./Progressbar";
 import { useState } from "react";
 import Savebutton from "./Savebutton";
-import Copybutton from "./copybutton";
+import Copybutton from "./Copybutton";
 import Xbutton from "./Xbutton";
 import Vault from "./Vault";
 import { link } from "framer-motion/client";
