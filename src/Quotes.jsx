@@ -5,7 +5,7 @@ import { Key } from "lucide-react";
 import { AnimatePresence } from "framer-motion";
 import Signature from "./Signature";
 import { useLenis } from "lenis/react";
-import Progressbar from "./progressbar";
+import Progressbar from "./Progressbar";
 import { useState } from "react";
 import Savebutton from "./Savebutton";
 import Copybutton from "./copybutton";
