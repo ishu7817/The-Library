@@ -1,3 +1,4 @@
+import { Analytics } from "@vercel/analytics/next"
 import { useState, useEffect } from "react";
 import { Routes, Route } from "react-router-dom";
 import Home from "./Home";
@@ -41,6 +42,7 @@ function App() {
     return <MobileView width={width} />;
   }
   return (
+    <>
     <ReactLenis root>
       <Routes>
         <Route path="/" element={<Home />} />
@@ -50,7 +52,10 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/vault" element={<Vault />} />
       </Routes>
+
     </ReactLenis>
+    <Analytics />
+    </>
   );
 }
 
