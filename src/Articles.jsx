@@ -189,7 +189,7 @@ const articles = () => {
               transition={{ duration: 1.2, ease: 'easeInOut', delay: 0.6 }} className="cardcont group relative min-h-[20vh] w-[full] ">
 
               <motion.div initial={{ backdropFilter: "blur(0px)" }} animate={{ backdropFilter: "blur(8px)" }} transition={{ duration: 1, delay: 0.6, ease: easeIn }}
-                className="card transition-all duration-900 hover:scale-110 hover:mx-10 p-6 h-45 w-[full] flex flex-col relative gap-[10%]  bg-black/5 border-[1px] border-white/5 rounded-2xl " >
+                className="card transition-all duration-900 hover:scale-110 hover:mx-10 p-6 h-50 w-[full] flex flex-col relative gap-[10%]  bg-black/5 border-[1px] border-white/5 rounded-2xl " >
 
 
 
@@ -203,7 +203,7 @@ const articles = () => {
                 <div className=" w-full titledate flex gap-[20%] ">
 
                   <span className='sm:w-[70%]  w-[100%] overflow-scroll  scroll- scroll-smooth scrollbar-none transition-all text-nowrap'>
-                    <h1 className=' title justify-self-center sm:justify-self-auto  base text-2xl md:text-3xl text-zinc-400 font-cormorant font-bold tracking-wide'>
+                    <h1 className=' title justify-self-center sm:justify-self-auto  base text-2xl md:text-3xl text-zinc-00 font-cormorant font-bold tracking-wide'>
                       {article.title}
                     </h1>
                   </span>

@@ -1,7 +1,173 @@
 // src/data/articles.js
 
 export const library = [
+{
+    id: 8,
+    kicker: "Basal Mechanics",
+    title: "Cognitive Inertia",
+    subtitle: "How the need to be right keeps you wrong.",
+    date: "JAN 09, 2026",
+    readtime: "4 min",
 
+    content: `
+  <p>Okay, straight to the point this time…</p>
+
+  <p>When a need is felt to change your routine or Schedule (maybe a single thing or sometimes the whole routine), do it immediately.</p>
+
+  <p>If you delay even a bit, it can result in wasting years. I have wasted mine already, and so I dare to warn you with my experiences in this article.</p>
+
+  <p>Let me clear things up for you.</p>
+
+  <p>Firstly, I want to tell you a bit about the “Consistency Principle” or sunk. <strong>Robert Cialdini</strong>, in his book <em>Influence</em>, popularised this concept (if you care about my book recommendation, <em>Influence</em> is one of them).</p>
+
+  <p><strong>The Consistency Principle:</strong> There’s a basic human tendency in all of us to be consistent with our words and actions. The words that were previously said, or a Promise we already made, or a goal we’ve already agreed upon drives our minds straight into the arena where we can no longer deny it, cause if we deny it now…</p>
+
+  <p>Then our Previous words or Promises already fall untrue for us and for others. And humans don’t want that. Obviously. Humans want to save face, and that is to be right.</p>
+
+  <p>Okay, now I will recall the Consistency Principle, and you’ll know what I’m talking about. Right? <em>Say right.</em></p>
+
+  <br />
+
+  <p>Now, returning to your routine and habits that you deep inside know are not worth the efforts you’re putting in or aren’t justifying your time, and thus, need to be changed.</p>
+
+  <p>Again, when you feel that you need to make changes in the routine that you have been following for years now, make those changes immediately. Cause just once you neglect the change, never will you accept it again.</p>
+
+  <p>Why?</p>
+
+  <p>Because of the Consistency Principle. Here, This Principle applies to two of the most important aspects in habit forming — The Past and the Future.</p>
+
+  <p>We’ll talk about the past later; for now, let’s talk about the future. How, just being aware of this trap can save you years, and how it affects you, your brain, and your actions.</p>
+
+  <p>What happens when you don’t take the action to change your routine as you require at once, a consistency frame builds up in your mind that says, “Chill Big guy, if you didn’t take the action in the Past, what’s so urgent to do it now?” and that is how the cycle keeps going and going. You will never be able to take action cause everytime you try, your brain will respond with “Why do it now after you have ignored it since you first made the decision to take the action and didn’t take it?” and the further you wait, the harder the loop is to break.</p>
+
+  <p>Do you understand what I’m trying to say here? It’s a bit complex, I know.</p>
+
+  <br />
+  <hr />
+  <br />
+
+  <p>Now the bigger Question unfolds. Why are we afraid to change or abandon the routine that we first feel the need to do so?</p>
+
+  <p>Here, the second aspect, which we talked about, of the Consistency Principle kicks in — The Past.</p>
+
+  <p>The problem with letting go of our routine is that we all are following the routine for a long enough time now (that’s the reason we call it “Routine” after all) and when we follow and stick to the same particular habits for a long enough time, and constantly put efforts to not break the habit everyday, again a consistency frame builds up, yes, this time it is far more stronger, cause the longer the time frame, the stronger the consistency effect.</p>
+
+  <p>Now, when you realize that the habit that you have from years has long stopped serving you, and you decide to let go of it to invest your time in more valuable things, your brain tells you: “What? Do you know how long you've been doing this for? If you quit it now, then all the efforts until now to save the habit every day will go to waste, and you chose the habit for yourself, after all. No one forced you to do that, and now, if you quit, you’ll be proven wrong (and inconsistent) to yourself.”</p>
+
+  <br />
+
+  <p>But why does the brain protect the habit like it’s defending a criminal in the court?</p>
+
+  <p>The reason is simple. It is because our brain fears letting go of the things that are already settled up in the <strong>Basal Ganglia</strong> (The part of the brain that is responsible for automatic behaviors).</p>
+
+  <p>Understand it like this: Habits, Routines, or Rituals are all automatic, though that’s the reason why we want to build habits or routines in the first place, but their being automatic means they are not conscious actions that our mind has to think through; they all live in the Basal Ganglia part of the brain. Hence, our <strong>Prefrontal Cortex</strong> (The thinking Part of the brain) becomes free. There are no thoughts or work needed for the brain to do. It becomes free. And it absolutely loves that, just like we do when we are free.</p>
+
+  <p>The reason why you are afraid to make changes in your routine is that you’ve become comfortable with your existing routine. You don’t have to <em>think</em>. And <em>thinking</em> is the hardest labour for mankind. That’s why you stick to your routine in the name of <strong>CONSISTENCY</strong>, which eventually turns out to be a <strong>lack of courage</strong>.</p>
+
+  <br />
+
+  <blockquote>
+    <p>Keep this in mind cause apparently, the line between Courage and Madness is thinner than you think: No matter how hard your routine is, when you become comfortable with following it unconsciously….that becomes <strong>comfort</strong>. And <strong>comfort</strong> of any kind is dangerous. Especially the one you are blind to see.</p>
+  </blockquote>
+
+  <br />
+
+  <p>The whole reasoning is in front of you now, and the fun part is that what you read in this article is something you already knew (maybe deep inside); you just needed to validate it. What I did was merely put what we all experience in words for you to read and validate.</p>
+
+  <p>Let me repeat one more time — <strong>When a need is felt…A need to change something dramatic to something meaningful, grab that pursuit of change at its very first sight.</strong></p>
+  `,
+    slug: "consistency-principle"
+  },
+  
+{
+  id: 7,
+    kicker: "",
+    title: "Rigid Habits",
+    subtitle: 'Reclaiming the hours your mind calls "wasted."',
+    date: "Jan 05, 2026",
+    readtime: "5 min",
+
+    content: `
+  <p>The thing is that our mind is made to follow a system and is most comfortable when given some system or schedule to follow. i.e, check marks to check on. But the moment it’s free, it starts stressing you.</p>
+
+  <p>I know what you’re thinking about. Something like “Is this guy nuts?” “I’m always trying to get my mind free and be happy.” Yes, you’re right.</p>
+
+  <p>The moment I lifted the Pen, I got nuts.</p>
+
+  <p>I had to. See, what I’m here trying to say is that our mind doesn’t come to a conclusion of whether the time we put into trying to get to the conclusion. It literally marks that time as “wasted" (Someone please highlight that word with red).</p>
+
+  <p>I realized it only when today, I was walking, thinking about a topic to write, and when I couldn’t find a good topic to bless my Pen with, I felt like I wasted Soooo much time, I felt like shit.</p>
+
+  <p>But then I realized that I was trying after all.</p>
+
+  <p>Like..ummm… how do I put it...</p>
+
+  <p>See, we never know if there will be a Puppy when the dogs make out (yes, a human one, will get this rated 15+).</p>
+
+  <p>At first, with my quote writing habit, I never felt that I was wasting time when I rubbed my butt to get two similar-sounding words to make a Phrase that at least made sense.</p>
+
+  <p>But Why?</p>
+
+  <p>Just Why??</p>
+
+  <p>Cause there was always a “conclusion”. A Quote. A Puppy. “I don’t know if this Quote’s the best one I can think of today, but as I’m tired, I’ll just go with this one.” This is the kind of thinking there was. Notice that it doesn’t matter what the outcome, bad or good, as long as it satisfies my hunger for a Quote, it is the <strong>conclusion</strong>. And there, my mind got a dopamine hit as I wrote a Quote for that very day, and now I was free for life (for that day’s life).</p>
+
+  <p>So yeah, when there’s a checklist to tick on, it becomes very easy for our mind to “get us done,” whether we are or not in actual, even when we can do better. We literally settle for anything.</p>
+
+  <p>But what happens when there is no “Checklist”?</p>
+
+  <p>Your mind is set free, and you can end the work only when <strong>YOU</strong> are satisfied with the <strong>work itself</strong>, and not just the fact that <strong>You Worked</strong>.</p>
+
+  <p>When you’re free to think, when you are the most involved in the creative works, and you can’t get to a result, or a solution, or a conclusion after putting time into it, you will be caught straight away, and be told that you just wasted this and this much time just thinking. And now you have to pay with regret. The regret of wasting time that was never wasted. The time in which you gave all your efforts to get to a result and make a contribution to your life.</p>
+
+  <br />
+
+  <blockquote>
+    <p>“If the Puppy never comes, the nights never end either.”</p>
+  </blockquote>
+
+  <p>(okay, don’t actually say it out loud:).</p>
+
+  <p>It takes time to identify certain aspects of ourselves when we ourselves are on the bait.</p>
+
+  <p>Now you know that you don’t have to feel like shit.</p>
+
+  <p>If you’re putting time and trying your best, and you can’t come up with anything really good, please don’t regret the time you put into it, as it was used for a far greater calling than a mere check-box or Dopamine hit, and now you’re using that to find something “really” good.</p>
+
+  <p>Cause if you were in the Search for “just good enough,” You’d already be done, and you’ll always be done. Easily. But you won’t ever try to do better.</p>
+
+  <br />
+  <hr />
+  <br />
+
+  <p>Now, let’s kill your hope a little.</p>
+
+  <p>I didn’t brag up there to tell you to skip work, like “If I can’t think about something today, I don’t have to regret it. <strong>You Have to.</strong></p>
+
+  <p>How do you know if the Time you put in was <strong>Real</strong> or not?</p>
+
+  <p>See, the thing I talked about 1–2 pages earlier was about <strong>Real</strong> time and efforts put into work, not your distracted hours. You must understand the difference between when you’re locked in and when you’re not so locked in, or when you’re just distracted.</p>
+
+  <p>It’s not actually hard to identify if you’re focused or not. If you are honest with yourself (completely honest), you can tell it at any moment you Procrastinate. But the Problem is that being honest with yourself is hard, very hard. Your mind does not want you to be honest cause if you are honest, it won’t get more of those Dopamine hits.</p>
+
+  <p>How do you know if the time you put in was real or not?</p>
+
+  <p>I don’t know. How am I supposed to know if you procrastinated or did the work? It’s you who knows that. Just you. Cause it’s never an outside force that can tell you if you worked or just got your time through it without looking at the outcome you got.</p>
+
+  <p>It’s your own mind that forces deep stimulation when it is actually trying to build or find something valuable. If you find yourself trying and trying again, even when you can’t reach the thing you want, then it’s your sign that you are <strong>actually trying</strong>.</p>
+
+  <p>Also, now that you’ve taken your time to read this article till here, you are a lot more likely to identify it firsthand.</p>
+
+  <p>Here’s a simple Trick:</p>
+
+  <p>See, now that you know, read this insider problem from another human’s perspective, you’re likely to think of this every time you sit down to work and can’t find any outcome. Maybe as an excuse(if you procrastinated).</p>
+
+  <p>If you don’t think about this whole Point that we went through, while working, you're <strong>actually working</strong>, you’re <strong>actually trying hard</strong> to get something out of your time. Cause just the fact that you’re not using the biggest excuse there can be(of which I just got a CD installed into your mind:), to not regret your Procrastination, or to escape work, tells that you are actually focused on the work itself and you’re not just getting your time through.</p>
+
+  <p>So, now….Get to the work, without regretting your attempts to achieve something more than a dopamine hit of getting done with a rigid habit.</p>
+  `,
+    slug: "rigid-habits"
+  },
   {
     id: 6,
     title: "Defining Passion",
