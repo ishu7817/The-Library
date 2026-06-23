@@ -17,15 +17,25 @@ const Vault = () => {
 
 
   const filteredQuotes = useMemo(() => {
-    const lowerSearch = searchTerm.toLowerCase();
-    return Vaults.filter((q) => {
-      const matchesQuote = q.quote.toLowerCase().includes(lowerSearch);
-      const matchesTags = q.tags?.some((tag) =>
-        tag.toLowerCase().includes(lowerSearch)
-      );
-      return matchesQuote || matchesTags;
-    });
-  }, [searchTerm]);
+  const cleanSearchTerm = searchTerm.toLowerCase().trim();
+
+  // If there's no search term, just return everything immediately
+  if (!cleanSearchTerm) return Vaults;
+
+  return Vaults.filter((q) => {
+    // 1. Clean the quote text for a fair match
+    const cleanQuoteForSearch = q.quote.replace(/\*\*/g, "").toLowerCase();
+    const matchesQuote = cleanQuoteForSearch.includes(cleanSearchTerm);
+
+    // 2. Keep your tag search working perfectly too
+    const matchesTags = q.tags?.some((tag) =>
+      tag.toLowerCase().includes(cleanSearchTerm)
+    );
+
+    // Return the quote if it matches either the text OR the tags
+    return matchesQuote || matchesTags;
+  });
+}, [searchTerm]);
 
   const handleCopy = (text, id) => {
     const cleanText = text.replace(/\*\*/g, "");
